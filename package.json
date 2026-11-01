@@ -1,0 +1,29 @@
+{
+  "name": "vault-sentinel",
+  "version": "1.0.0",
+  "description": "⚡ Ultra-fast, zero-dependency secret leak & Shannon entropy scanner for Git repos with interactive HTML reports.",
+  "main": "src/index.js",
+  "bin": {
+    "vault-sentinel": "bin/vault-sentinel.js"
+  },
+  "scripts": {
+    "test": "node tests/scanner.test.js",
+    "start": "node bin/vault-sentinel.js scan ."
+  },
+  "keywords": [
+    "security",
+    "secret-scanner",
+    "git-secrets",
+    "entropy-analysis",
+    "cybersecurity",
+    "devsecops",
+    "pentesting",
+    "credential-leak",
+    "pre-commit-hook"
+  ],
+  "author": "MADHacker912",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
